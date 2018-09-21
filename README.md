@@ -30,8 +30,8 @@ rp({
   //   }],
   //   headers: {
   //     subject: 'Example subject',
-  //     from: 'Example Name <example@gmail.com>',
-  //     to: '<foo@gmail.com>, Foo Bar <fooBar@gmail.com>',
+  //     from: {name: 'Example Name', address: example@gmail.com' },
+  //     to: {name: 'Foo Bar', address: 'foo@gmail.com' },
   //     ...
   //   },
   //   textPlain: 'This is one cool *message*, buddy.\r\n',
