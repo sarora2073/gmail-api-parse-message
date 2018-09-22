@@ -3,7 +3,9 @@
 # gmail-api-parse-message
 Parses the response from the Gmail API's GET message method. 
 
-9-20-2018 - modified original package to parse email addresses to extact the name and email address separately, instead of just displaying the raw string
+Changelog
+---------
+9-20-2018 - modified original package to parse email addresses to extract the name and email address separately, instead of just displaying the raw string
 
 ## Example usage
 
