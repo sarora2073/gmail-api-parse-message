@@ -1,7 +1,11 @@
 [![npm][npm]][npm-url]
 
 # gmail-api-parse-message
-Parses the response from the Gmail API's GET message method.
+Parses the response from the Gmail API's GET message method. 
+
+Changelog
+---------
+9-20-2018 - modified original package to parse email addresses to extract the name and email address separately, instead of just displaying the raw string
 
 ## Example usage
 
@@ -30,8 +34,8 @@ rp({
   //   }],
   //   headers: {
   //     subject: 'Example subject',
-  //     from: 'Example Name <example@gmail.com>',
-  //     to: '<foo@gmail.com>, Foo Bar <fooBar@gmail.com>',
+  //     from: {name: 'Example Name', address: example@gmail.com' },
+  //     to: {name: 'Foo Bar', address: 'foo@gmail.com' },
   //     ...
   //   },
   //   textPlain: 'This is one cool *message*, buddy.\r\n',
