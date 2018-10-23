@@ -1,14 +1,14 @@
 {
   "name": "gmail-api-parse-message",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Parses the response from the Gmail API's GET message method",
   "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tholle <emtholin@gmail.com>",
+  "author": "SArora <sarora2073@gmail.com>",
   "license": "MIT",
-  "repository": "EmilTholin/gmail-api-parse-message",
+  "repository": "sarora2073/gmail-api-parse-message",
   "dependencies": {
     "base-64": "^0.1.0",
     "addressparser": "1.0.1"
